@@ -4,3 +4,5 @@ anyone who defys me with one of my tools will fail.
 
 
 @y_ga
+
+DONT FUCKING SKID MY CODE FATTY. 
