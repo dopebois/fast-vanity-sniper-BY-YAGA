@@ -1,10 +1,12 @@
 // made by @y_ga
+// yaga owns u
 
 "use strict";
 
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 process.title = "TWILIGHT";
 
+// yaga owns u
 if (process.platform === 'win32') {
     try {
         const { spawn } = require('child_process');
@@ -22,12 +24,13 @@ const tls = require('tls');
 const http2 = require('http2');
 const WebSocket = require('ws');
 
+// yaga owns u 
 const CONFIG = {
     TOKEN: "",
     SERVER_ID: "",
-    PASSWORD: "@y_ga owns u"
+    PASSWORD: ""
 };
-
+// FAGGOT FAGGOT STOP SKIDING.
 let mfaToken = null;
 let claiming = false;
 const guilds = Object.create(null);
@@ -44,6 +47,7 @@ const BASE_HEADERS = {
 };
 
 // made by @y_ga
+// yaga owns u
 
 class MFATokenManager {
     constructor() {
@@ -184,6 +188,7 @@ class MFATokenManager {
 const mfaManager = new MFATokenManager();
 
 // made by @y_ga
+// yaga owns u
 
 class ClaimerSystem {
     constructor() {
@@ -253,6 +258,7 @@ const claimerSystem = new ClaimerSystem();
 let detectionSystem = null;
 
 // made by @y_ga
+// yaga owns u
 
 function websocketLogin() {
     setImmediate(() => {
@@ -283,6 +289,7 @@ function websocketLogin() {
 }
 
 // made by @y_ga
+// yaga owns u
 
 class DetectionSystem {
     constructor() {
@@ -430,6 +437,7 @@ class DetectionSystem {
 }
 
 // made by @y_ga
+// yaga owns u
 
 function startMaintenance() {
     const keepAliveBuffer = Buffer.from('HEAD / HTTP/1.1\r\nHost: canary.discord.com\r\nConnection: keep-alive\r\n\r\n');
@@ -459,6 +467,7 @@ function startMaintenance() {
 }
 
 // made by @y_ga
+// yaga owns u
 
 async function init() {
     console.log('TWILIGHT READY');
